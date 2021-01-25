@@ -1,7 +1,13 @@
 PHPMatrix
 ==========
 
+
+## What was changed?
+Added support for PHP 5.5.9
+
 ---
+
+
 
 PHP Class for handling Matrices
 
