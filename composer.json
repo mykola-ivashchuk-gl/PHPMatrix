@@ -1,7 +1,7 @@
 {
-    "name": "markbaker/matrix",
+    "name": "mykola-ivashchuk-gl/matrix",
     "type": "library",
-    "description": "PHP Class for working with matrices",
+    "description": "PHP Class for working with matrices supporting PHP 5.5.9",
     "keywords": ["matrix", "vector", "mathematics"],
     "homepage": "https://github.com/MarkBaker/PHPMatrix",
     "license": "MIT",
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php": "^5.6.0|^7.0.0"
+        "php": "^5.5.9|^7.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8.35|^5.4.0",

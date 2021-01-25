@@ -17,8 +17,9 @@ use Matrix\Operators\Division;
  * @param     array of string|integer|float|Matrix    $matrixValues   The numbers to divide
  * @return    Matrix
  */
-function divideinto(...$matrixValues)
+function divideinto()
 {
+    $matrixValues = func_get_args();
     if (count($matrixValues) < 2) {
         throw new \Exception('This function requires at least 2 arguments');
     }

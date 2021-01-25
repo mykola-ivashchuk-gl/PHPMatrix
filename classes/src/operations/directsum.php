@@ -18,8 +18,9 @@ use Matrix\Operators\DirectSum;
  * @return    Matrix
  * @throws    Exception
  */
-function directsum(...$matrixValues)
+function directsum()
 {
+    $matrixValues = func_get_args();
     if (count($matrixValues) < 2) {
         throw new Exception('This operation requires at least 2 arguments');
     }

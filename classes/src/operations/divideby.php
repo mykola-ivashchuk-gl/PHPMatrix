@@ -17,8 +17,9 @@ use Matrix\Operators\Division;
  * @param     mixed[]    $matrixValues   The matrices to divide
  * @return    Matrix
  */
-function divideby(...$matrixValues)
+function divideby()
 {
+    $matrixValues = func_get_args();
     if (count($matrixValues) < 2) {
         throw new \Exception('This function requires at least 2 arguments');
     }
